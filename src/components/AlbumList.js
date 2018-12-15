@@ -50,7 +50,7 @@ class AlbumList extends Component {
     }
 
 
-     static handleBuyNow(url) {
+    static handleBuyNow(url) {
         Linking.openURL(url)
     }
 }
